@@ -1,0 +1,10 @@
+cradle:
+  cabal:
+      - path: "src"
+        component: "exe:main"
+      
+      - path: "bench"
+        component: "bench:bench"
+      
+      - path: "test"
+        component: "test:test"
